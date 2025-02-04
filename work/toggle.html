@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+.toggle-img{
+    width: 30px;
+    height: 30px;
+}
+
+.toggle-img, .dark-mode{
+    color: white;
+}
+</style>
+</head>
+<body>
+    <img onclick="myFunction()" class="toggle-img" src="toggle.png" alt="light and dark mode">
+<h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+<!-- <button onclick="myFunction()"><i class="fa-solid fa-toggle-on"></i></button> -->
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
