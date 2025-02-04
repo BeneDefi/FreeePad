@@ -701,7 +701,6 @@ footer .footer-bottom {
   margin-left: 30px;
 }
 
-
 @media (max-width:884px) {
     nav, .logo-container{
         padding: 20px;
@@ -755,6 +754,18 @@ footer .footer-bottom {
         display: block;
         color: #188ab8;
     }
+
+    body.light-mode h5{
+      background-color: whitesmoke;
+      color: #0a0a1a;
+    }
+    
+    /* Dark Mode */
+    body.dark-mode h5{
+      background-color:#0a0a1a;
+      color: #ffffff;
+    }
+    
 
     .links-btn{
       margin-left: -35px;
@@ -998,6 +1009,8 @@ footer .footer-bottom {
   .logo-text, #logo-text {
     color: #188ab8;
   }
+
+
 }
 
 @media (max-width:440px){
