@@ -704,14 +704,6 @@ footer .footer-bottom {
   margin-left: 30px;
 }
 
-@media (max-width:740) {
-  .toggle-container{
-    margin-top: -11px;
-    padding-left: 25px;
-    width: 40px;
-    height: 25px;
-  }
-}
 
 @media (max-width:1200px) {
     nav, .logo-container{
@@ -1008,6 +1000,8 @@ footer .footer-bottom {
   } */
 
   .toggle-container{
+    margin-top: -10px;
+    margin-left: -70px;
     width: 40px;
     height: 25px;
   }
@@ -1034,13 +1028,14 @@ footer .footer-bottom {
 
 }
 
-/* @media (max-width:349) {
+@media (max-width:740) {
   .toggle-container{
-    margin-top: 100px;
+    margin-top: -11px;
+    padding-left: 25px;
     width: 40px;
     height: 25px;
   }
-} */
+}
 
 @media (max-width:440px){
   .link-btn{
@@ -1077,6 +1072,15 @@ footer .footer-bottom {
     .blocks p {
       font-size: small;
     }
+
+.toggle-container{
+    /* margin-top: -11px; */
+    /* padding-left: 250px; */
+    /* margin-left: 40px; */
+    width: 40px;
+    height: 25px;
+  }
+
     footer {
       padding: 20px 5%;
       background-color: transparent;
@@ -1187,5 +1191,12 @@ footer .footer-bottom {
     .mint-container > div:first-child {
       margin-bottom: 15px;
     }
+}
+@media (max-width:350) {
+  .toggle-container{
+    margin-right: -80px;
+    width: 40px;
+    height: 25px;
+  }
 }    
 }
