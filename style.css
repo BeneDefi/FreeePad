@@ -178,6 +178,7 @@ nav{
 .logo-text{
     padding-top: 29px;
     margin-left: -20px;
+    letter-spacing: 3.5px;
 }
 
 #logo-text{
@@ -741,10 +742,13 @@ footer .footer-bottom {
     .logo-text {
       margin-bottom: 30px; 
       margin-left: 10px;
+      letter-spacing: ;
     }
 
     #logo-text{
       padding: 3px;
+      margin-left: -0px;
+      padding-left: 60px;
     }
 
     .nav-holder{
